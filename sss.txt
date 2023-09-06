@@ -1,0 +1,33 @@
+- Tailwind
+
+{ 'federal_blue': { DEFAULT: '#03045e', 100: '#010113', 200: '#010226', 300: '#020338', 400: '#02044b', 500: '#03045e', 600: '#0508ae', 700: '#0f12f8', 800: '#5f61fa', 900: '#afb0fd' }, 'honolulu_blue': { DEFAULT: '#0077b6', 100: '#001825', 200: '#003049', 300: '#00486e', 400: '#005f93', 500: '#0077b6', 600: '#00a2f9', 700: '#3bbaff', 800: '#7cd1ff', 900: '#bee8ff' }, 'pacific_cyan': { DEFAULT: '#00b4d8', 100: '#00242b', 200: '#004756', 300: '#006b81', 400: '#008fab', 500: '#00b4d8', 600: '#12d8ff', 700: '#4ee1ff', 800: '#89ebff', 900: '#c4f5ff' }, 'non_photo_blue': { DEFAULT: '#90e0ef', 100: '#0a3a43', 200: '#137586', 300: '#1dafc9', 400: '#4ccfe6', 500: '#90e0ef', 600: '#a6e7f2', 700: '#bcedf5', 800: '#d2f3f9', 900: '#e9f9fc' }, 'light_cyan': { DEFAULT: '#caf0f8', 100: '#0a444f', 200: '#15889f', 300: '#2ac4e3', 400: '#79daee', 500: '#caf0f8', 600: '#d4f3f9', 700: '#dff6fb', 800: '#e9f9fc', 900: '#f4fcfe' } }
+
+- CSV
+
+03045e,0077b6,00b4d8,90e0ef,caf0f8
+
+- With #
+
+#03045e, #0077b6, #00b4d8, #90e0ef, #caf0f8
+
+- Array
+
+["03045e","0077b6","00b4d8","90e0ef","caf0f8"]
+
+- Object
+
+{"Federal blue":"03045e","Honolulu Blue":"0077b6","Pacific cyan":"00b4d8","Non Photo blue":"90e0ef","Light cyan":"caf0f8"}
+
+- Extended Array
+
+[{"name":"Federal blue","hex":"03045e","rgb":[3,4,94],"cmyk":[97,96,0,63],"hsb":[239,97,37],"hsl":[239,94,19],"lab":[8,36,-50]},{"name":"Honolulu Blue","hex":"0077b6","rgb":[0,119,182],"cmyk":[100,35,0,29],"hsb":[201,100,71],"hsl":[201,100,36],"lab":[48,-4,-41]},{"name":"Pacific cyan","hex":"00b4d8","rgb":[0,180,216],"cmyk":[100,17,0,15],"hsb":[190,100,85],"hsl":[190,100,42],"lab":[68,-25,-29]},{"name":"Non Photo blue","hex":"90e0ef","rgb":[144,224,239],"cmyk":[40,6,0,6],"hsb":[189,40,94],"hsl":[189,75,75],"lab":[85,-21,-15]},{"name":"Light cyan","hex":"caf0f8","rgb":[202,240,248],"cmyk":[19,3,0,3],"hsb":[190,19,97],"hsl":[190,77,88],"lab":[92,-11,-8]}]
+
+- XML
+
+<palette>
+  <color name="Federal blue" hex="03045e" r="3" g="4" b="94" />
+  <color name="Honolulu Blue" hex="0077b6" r="0" g="119" b="182" />
+  <color name="Pacific cyan" hex="00b4d8" r="0" g="180" b="216" />
+  <color name="Non Photo blue" hex="90e0ef" r="144" g="224" b="239" />
+  <color name="Light cyan" hex="caf0f8" r="202" g="240" b="248" />
+</palette>
