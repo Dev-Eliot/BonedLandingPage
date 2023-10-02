@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    flex-direction: row; 
+    height: 150px;   
+}
+
+.navbar__logo{
+    height: 100%;
+    width: calc(100% - navbarbuscador);
+}
