@@ -1,10 +1,94 @@
-.navbar{
-    display: flex;
-    flex-direction: row; 
-    height: 150px;   
+*{
+    font-family: "Lumanosimo";
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.navbar__logo{
-    height: 100%;
-    width: calc(100% - navbarbuscador);
+body{    
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px 0 25px;
+    
+    & .logo{
+        height: 100%;
+        width: 150px;
+        border-radius: 20px;
+
+        & #Capa_1{
+            height: 90%;
+            width: 100%;
+        }
+    }
+
+    & .buscador{
+        position: relative;
+        align-items: center;
+        & .navbar__input{
+            width: 100%;
+            height: 30px;
+            padding: 0 0 0 35px;
+            border-radius: 50px;
+            border: var(--textColorNav) 1px solid;
+        }
+
+        & .navbar__icon{
+            color: var(--textColorNav);
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: calc(5%);
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    
+
+    & .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+
+        & .active {
+            background-color: var(--activeNav);
+            border-radius: 50px;
+            color: var(--activeNavText) !important;
+        }
+
+        & .links__items{
+            display: flex;
+            align-items: center;
+
+            & .navbar__links--link{
+                font-size: 0.8em;
+                letter-spacing: 1px;
+                font-weight: 900;
+                text-decoration: none;
+                color: var(--textColorNav);
+                text-align: center;
+                white-space: nowrap;
+                padding: 10px;                
+            }
+        }
+        
+
+        & .links__items:last-child{
+            & a{
+                background-color: var(--contactoNav);
+                border-radius: 50px;
+                color: var(--activeNavText) !important;
+            }
+        }
+    }
 }

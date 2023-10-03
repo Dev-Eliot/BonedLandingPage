@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Lumanosimo';
+    src: url('Fonts/Lumanosimo-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --textColorNav : #151516;
+    --activeNav : #4677F5;
+    --activeNavText : #fff;
+    --contactoNav : #5250C0;
+}
