@@ -1,0 +1,29 @@
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    width: 100%;
+    padding: 0 5em;
+}
+
+.nosotros__vision{
+    width: 100%;
+    padding: 25px 20px;
+}
+
+.nosotros__mision{
+    width: 100%;
+    background-color: var(--colorMision);
+    padding: 25px 20px;
+}
+
+.nosotros__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+
+    & .nosotros__img{
+        width: 100px;
+        height: auto;
+    }
+}

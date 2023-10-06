@@ -6,8 +6,9 @@
 }
 
 body{    
-    width: 100dvw;
-    height: 100dvh;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
 }
 
 .navbar{

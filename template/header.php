@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="Styles/header.css">
 	<link rel="stylesheet" href="Styles/footer.css">
 	<link rel="stylesheet" href="Styles/slider.css">
+	<link rel="stylesheet" href="Styles/index.css">
 
 	<title>Document</title>
 </head>

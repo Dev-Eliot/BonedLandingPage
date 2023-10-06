@@ -1,4 +1,4 @@
-/* .slider{
+.slider{
     width: 60dvw;
     height: auto;
     margin: auto;
@@ -34,5 +34,5 @@
         -webkit-animation: translateX(calc(-200px * 7));
         transform: translateX(calc(-200px * 7));
     }
-} */
+}
 
