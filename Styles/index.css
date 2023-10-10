@@ -1,19 +1,25 @@
 .nosotros{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5em;
     padding: 0 5em;
     margin: 25px auto;
     width: 100%;
-    height: min-content;
+    height: max-content;
+    justify-content: center;
 }
 
 .nosotros__vision{
     padding: 25px 20px;
+    min-width: 700px;
+    width: 50%;
 }
 
 .nosotros__mision{
     background-color: var(--colorMision);
     padding: 25px 20px;
+    min-width: 700px;
+    width: 50%;
 }
 
 .nosotros__header{
@@ -28,7 +34,6 @@
     }
 
     & .nosotros__header--titulo{
-        text-indent: 1em;
         width: 100%;
     }
 }
